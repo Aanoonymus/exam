@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style/reg.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <img src="../images/ebay-logo.jpg" alt="" />
+        <p class="navbar-info">
+          Already a member? <a href="./signin.html">Sign in</a>
+        </p>
+      </nav>
+      <h1 class="register-title">Create an account</h1>
+      <div class="wrapper">
+        <form class="reg-form">
+          <div id="form" class="form-reg-input">
+            <input id="name" placeholder="Name" type="text" />
+            <input id="avatar" placeholder="Avatar" type="url" />
+          </div>
+          <input id="email" placeholder="Email" type="email" />
+          <div class="icon-position">
+            <input id="password" placeholder="Password" type="password" />
+            <img
+              class="password-input-show"
+              src="../images/show-pass.svg"
+              alt=""
+            />
+          </div>
+          <p class="form-reg-input-info">
+            By Creating an account, you agree to our
+            <a href="#">User</a> <a href="#">Agreement</a> and acknowledge
+            reading our <a href="#">User</a> <a href="#">Privacy Notice</a> .
+          </p>
+          <button class="form-reg-input-btn" type="submit">
+            Create account
+          </button>
+        </form>
+        <div class="wrapper-lines">
+          <div class="line"></div>
+          <p>or</p>
+          <div class="line"></div>
+        </div>
+        <button class="reg-form-google-btn">
+          <img src="../images/google.svg" alt="" />Continue with Google
+        </button>
+      </div>
+      <div class="copyright-wrapper">
+        <p>
+          Copyright © 1995-2023 eBay Inc.
+          <a href="#"
+            >All Rights Reserved. Accessibility , User Agreement , Privacy ,
+            Payments Terms of Use , Cookies , Your Privacy Choices</a
+          >
+          and <a href="#">AdChoice</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="../script/reg.js"></script>
+  </body>
+</html>

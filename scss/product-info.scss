@@ -1,0 +1,93 @@
+$primary-font: "ABeeZee", sans-serif;
+
+@import "reset";
+@import "navbar";
+
+body {
+  font-family: $primary-font;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.main-container {
+  max-width: 1510px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1250px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 120px;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .options-btn {
+    transition: 0.3s;
+  }
+
+  .options-btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .options-back-home {
+    color: #0654ba;
+    font-size: 8px;
+    line-height: 13px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul li {
+  color: #333;
+  font-size: 10px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+ul li a {
+  color: #0654ba;
+  font-size: 10px;
+  line-height: 13px;
+  text-decoration: none;
+}
+
+.navbar-link-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link-wrapper a {
+  color: #0654ba;
+  font-size: 11.008px;
+  text-decoration: none;
+}
+
+.product-img {
+  width: 400px;
+  height: 500px;
+  box-shadow: 0 0 10px black;
+}
